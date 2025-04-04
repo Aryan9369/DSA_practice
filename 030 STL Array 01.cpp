@@ -1,17 +1,10 @@
-/*
-Program No - 30
-Topic      - STL
-Program    - Arrays
-Date       - 28.03.2025
-Branch     - CSE-A (338)
-Session No.- 08
-Author     - Vivek Agrawal
-*/
+
 
 #include<iostream>
 using namespace std;
 #include <typeinfo>
 #define SIZE 10
+#include <array>
 void change(int A[]) //ARRAY BY DEFAULT IS CALL BY REFERENCE-Pointers internally
 {
     for (int i=0;i<SIZE;i++)
