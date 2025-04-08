@@ -1,13 +1,4 @@
 
-/*
-Program No - 65
-Topic      - Linked List
-Program    - Display
-Date       - 07.04.2025
-Branch     - CSE (338)
-Session No.- 12
-Author     - Vivek Agrawal
-*/
 
 #include<iostream>
 using namespace std;
@@ -114,7 +105,7 @@ void insert_at_position(int data, int position) {
     }
     node* new_node = new node(data);  // Create a new node with data
     node* temp = first;               // Start traversal from first
-    for (int i = 0; i < position - 2; i++) {  // Move to node before position
+    for (int i = 1; i < position - 1; i++) {  // Move to node before position
         temp = temp->next;
     }
     new_node->next = temp->next;      // Link new node to next node
